@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "build:css": "postcss css/tailwind.css -o css/styles.css",
-        "watch:css": "postcss css/tailwind.css -o css/styles.css --watch"
+        "watch:css": "postcss css/tailwind.css -o css/styles.css --watch",
+        "build": "postcss build css/tailwind.css -o css/styles.css"
     },
     "keywords": [],
     "author": "",
